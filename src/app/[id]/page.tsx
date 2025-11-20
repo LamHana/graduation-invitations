@@ -223,7 +223,7 @@ const InvitationPage = () => {
               variants={slideInLeftVariants}
             />
             <div className="absolute top-1/4 left-4 right-0 w-[180px]">
-              <p className="text-base text-black-700">{person.message}</p>
+              <p className="text-sm text-black-700">{person.message}</p>
               <p className="text-xs text-right font-semibold text-black-700">- {guestData.signature}</p>
             </div>
           </div>
