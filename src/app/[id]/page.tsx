@@ -198,7 +198,7 @@ const InvitationPage = () => {
                 autoPlay={true}
                 loop={true}
                 muted={true}
-                controls={true}
+                controls={false}
                 className="h-full w-full object-cover shadow-[2px_2px_17px_0px_rgba(0,0,0,0.45)]"
               />
             </motion.div>
