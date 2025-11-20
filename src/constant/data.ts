@@ -67,21 +67,21 @@ export const data = [
     name: "Lâm Chí Khang",
     type: "GAI_12H",
     message:
-      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Chỉ mong là chúng mình cứ bên nhau mãi thui",
+      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Chỉ mong là chúng mình cứ bên nhau mãi thui, và nhả vía cho bà tốt nghiệp đúng hạn nhé",
   },
   {
     id: "a6e2d4",
     name: "Hồng Thảo",
     type: "GAI_12H",
     message:
-      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Chỉ mong là chúng mình cứ bên nhau mãi thui",
+      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Tui thiệt sự cảm thấy may mắn vì có thể làm bạn với bà á, người gì mà vừa slay vừa giỏi. Chỉ mong là chúng mình cứ bên nhau mãi thui",
   },
   {
     id: "b9f5a2",
     name: "Thùy Ngân",
     type: "GAI_12H",
     message:
-      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Chỉ mong là chúng mình cứ bên nhau mãi thui",
+      "Cảm ơn vì mấy bà đã luôn là phần quan trọng trong hành trình trưởng thành của tui. Tui vẫn nhớ cái bóp viết ngày nào Thì Ngăn tặng sinh nhật tui, thật sự rất quý Thì Ngăn luôn é .Chỉ mong là chúng mình cứ bên nhau mãi thui, và nhả vía cho bà tốt nghiệp đúng hạn nhé",
   },
   {
     id: "c2a4f7",
