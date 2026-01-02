@@ -499,3 +499,175 @@ export const guestTypeData = {
     link: "https://drive.google.com/drive/folders/15KEilVmqNwM_y_ahDIEDms4hTeC2EQ11?usp=sharing",
   },
 };
+
+export const momSections = [
+  {
+    id: "youth",
+    title: "Thời thanh xuân",
+    description:
+      "Ngày ấy, mẹ còn rất trẻ.\nCuộc sống chưa đủ đầy, nhưng nụ cười thì luôn ở đó.\nCó những ước mơ giản dị, và một trái tim rất mạnh mẽ.",
+    images: [
+      "/mom/1.webp",
+      "/mom/2.webp",
+      "/mom/3.webp",
+      "/mom/4.webp",
+      "/mom/5.webp",
+      "/mom/6.webp",
+      "/mom/7.webp",
+      "/mom/25.webp",
+      "/mom/8.webp",
+      "/mom/9.webp",
+    ],
+    layout: "grid", // 2-column grid
+  },
+  {
+    id: "wedding",
+    title: "Ngày cưới",
+    description:
+      "Ngày cưới không chỉ là niềm vui,\nmà còn là ngày mẹ học cách hy sinh và yêu thương nhiều hơn.\nTừ đây, gia đình nhỏ bắt đầu lớn lên.",
+    images: [
+      "/mom/10.webp",
+      "/mom/11.webp",
+      "/mom/12.webp",
+      "/mom/13.webp",
+      "/mom/29.webp",
+      "/mom/15.webp",
+      "/mom/14.webp",
+    ],
+    layout: "grid", // Full-width for important moments
+  },
+  {
+    id: "first-child",
+    title: "Lần đầu làm mẹ – Con trai",
+    description:
+      "Khi con trai ra đời,\nmẹ lần đầu biết thế nào là yêu thương vô điều kiện.\nMọi mệt mỏi đều trở nên nhỏ bé trước ánh mắt của con.",
+    images: [
+      "/mom/16.webp",
+      "/mom/17.webp",
+      "/mom/18.webp",
+      "/mom/19.webp",
+      "/mom/20.webp",
+      "/mom/con-trai-1.webp",
+      "/mom/con-trai-2.webp",
+      "/mom/con-trai-3.webp",
+      "/mom/46.webp",
+      "/mom/con-trai-4.webp",
+      "/mom/con-trai-5.webp",
+      "/mom/con-trai-6.webp",
+    ],
+    layout: "grid", // Full-width for important moments
+  },
+  {
+    id: "complete-family",
+    title: "Gia đình trọn vẹn – Con gái",
+    description:
+      "Thêm một thiên thần nhỏ đến với gia đình.\nTừ đây, nhà lúc nào cũng có tiếng cười và những lo toan rất đỗi dịu dàng.",
+    images: [
+      "/mom/21.webp",
+      "/mom/22.webp",
+      "/mom/23.webp",
+      "/mom/24.webp",
+      "/mom/26.webp",
+      "/mom/27.webp",
+      "/mom/28.webp",
+      "/mom/30.webp",
+      "/mom/31.webp",
+      "/mom/33.webp",
+      "/mom/con-gai.webp",
+      "/mom/con-gai-1.webp",
+      "/mom/con-gai-2.webp",
+      "/mom/63.webp",
+      "/mom/64.webp",
+    ],
+    layout: "grid", // Full-width for important moments
+  },
+  {
+    id: "ordinary-years",
+    title: "Những năm tháng bình dị",
+    description:
+      "Không phải ngày nào cũng đặc biệt,\nnhưng chính những khoảnh khắc giản dị ấy\nđã tạo nên một tuổi trẻ đầy yêu thương của mẹ.",
+    images: [
+      "/mom/34.webp",
+      "/mom/66.webp",
+      "/mom/36.webp",
+      "/mom/38.webp",
+      "/mom/48.webp",
+      "/mom/49.webp",
+      "/mom/51.webp",
+      "/mom/52.webp",
+      "/mom/53.webp",
+      "/mom/54.webp",
+      "/mom/43.webp",
+      "/mom/55.webp",
+      "/mom/56.webp",
+      "/mom/57.webp",
+      "/mom/58.webp",
+      "/mom/60.webp",
+    ],
+    videos: ["/mom/35.mp4", "/mom/37.mp4", "/mom/50.mp4"],
+    layout: "grid", // 2-column grid
+  },
+  {
+    id: "tet",
+    title: "Tết – Đoàn viên",
+    description:
+      "Dù bận rộn đến đâu,\nTết vẫn là lúc cả nhà quây quần bên nhau.\nTrong căn bếp nhỏ, mẹ luôn là người giữ lửa.",
+    images: [
+      "/mom/tet-2020.webp",
+      "/mom/tet-2020-1.webp",
+      "/mom/tet-2021.webp",
+      "/mom/tet-2021-2.webp",
+      "/mom/tet-2022-1.webp",
+      "/mom/tet-2022-2.webp",
+      "/mom/tet-2023.webp",
+      "/mom/tet-2023-2.webp",
+      "/mom/tet-2023-3.webp",
+      "/mom/tet-2023-4.webp",
+      "/mom/tet-2022-3.webp",
+      "/mom/noel-2021.webp",
+    ],
+    layout: "grid", // 2-column grid
+  },
+  {
+    id: "son-wedding",
+    title: "Đám cưới con trai",
+    description:
+      "Ngày con trai lập gia đình,\nmẹ vừa vui, vừa xúc động.\nMột hành trình khép lại, và một hành trình mới lại bắt đầu.",
+    images: [
+      "/mom/cuoi-2021.webp",
+      "/mom/cuoi-2021-1.webp",
+      "/mom/cuoi-2021-2.webp",
+      "/mom/cuoi-2021-3.webp",
+      "/mom/cuoi-2021-4.webp",
+      "/mom/cuoi-2021-5.webp",
+    ],
+    layout: "full", // Full-width for important moments
+  },
+  {
+    id: "grandchildren",
+    title: "Cháu – Niềm vui mới",
+    description: "Khi có cháu,\nmẹ lại yêu thêm một lần nữa –\nmột tình yêu nhẹ nhàng, bình yên và rất đỗi ngọt ngào.",
+    images: [
+      "/mom/65.webp",
+      "/mom/39.webp",
+      "/mom/40.webp",
+      "/mom/41.webp",
+      "/mom/42.webp",
+      "/mom/44.webp",
+      "/mom/45.webp",
+      "/mom/59.webp",
+      "/mom/61.webp",
+      "/mom/62.webp",
+      "/mom/67.webp",
+      "/mom/68.webp",
+      "/mom/70.webp",
+      "/mom/71.webp",
+      "/mom/83.webp",
+      "/mom/84.webp",
+      "/mom/85.webp",
+    ],
+    videos: ["/mom/61.mp4", "/mom/80.mp4", "/mom/81.mp4"],
+    layout: "full", // Full-width for important moments
+  },
+];
+
