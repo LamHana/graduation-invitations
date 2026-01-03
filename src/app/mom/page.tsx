@@ -11,6 +11,8 @@ import {
   slideInRightVariants,
 } from "@/src/constant/animation";
 import { momSections } from "@/src/constant/data";
+import VideoPlayer from "@/src/components/Video";
+import BackgroundAudio from "@/src/components/Audio";
 
 function groupImages(images: string[]) {
   const rows = [];
@@ -101,13 +103,13 @@ const ScatteredLayout = ({
               key={videoIndex}
               variants={imageVariants}
             >
-              <video
+              <VideoPlayer
                 src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                controls={false}
+                className="h-full w-full object-cover shadow-[2px_2px_17px_0px_rgba(0,0,0,0.45)]"
               />
             </motion.div>
           );
@@ -276,13 +278,13 @@ const HeroOverlapLayout = ({
               className="mt-3"
               variants={imageVariants}
             >
-              <video
+              <VideoPlayer
                 src={video}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover rounded-lg shadow-lg"
+                autoPlay={true}
+                loop={true}
+                muted={true}
+                controls={false}
+                className="h-full w-full object-cover shadow-[2px_2px_17px_0px_rgba(0,0,0,0.45)]"
               />
             </motion.div>
           );
@@ -516,6 +518,10 @@ const MomPhotoAlbum = () => {
             Một câu chuyện về tình yêu và gia đình
           </motion.p>
         </motion.div>
+
+        <div className="mb-12">
+          <BackgroundAudio />
+        </div>
 
         {/* Sections */}
         <div className="mb-12">
